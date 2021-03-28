@@ -971,6 +971,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 20px 0 0 50px;
 }
 
+
 @media (min-width: 1201px) and (max-width: 1400px) {
 
 	.container_advantages-line_item {
@@ -1247,11 +1248,16 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media (min-width: 481px) and (max-width: 960px) {
 
+	.container__content {
+		justify-content: center;
+	}
+
 	.container_advantages-line {
 		    flex-wrap: wrap;
     	justify-content: center;
     	padding: 10px 15px;
     	margin: 0 auto 30px;
+    	width: 80%;
 	}
 
 	.container_advantages-line_item {
@@ -1260,7 +1266,7 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	.container_advantages-main {
-		    padding: 0 10px;
+		    padding: 0 30px;
     	margin: 0 0 40px;
 	}
 
@@ -1300,7 +1306,7 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	.container_advantages-list {
-		padding: 0 10px;
+		padding: 0 30px;
 		margin: 0 0 40px;    
 	}
 
@@ -1433,6 +1439,17 @@ input[type=number]::-webkit-outer-spin-button {
 		margin: 0 auto 10px;
 	}
 
+	.hidden-block_knauf-car {
+		width: 100%;
+		height: auto;
+	}
+
+	.alterra_cars {
+	    border-radius: 10px;
+	    width: 100%;
+	    height: auto;
+	}
+
 	.hidden-block_application_button {
 		font-size: 14px;
 		line-height: 120%;
@@ -1552,7 +1569,7 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	.person_ {
-		margin-top: 40px;
+		margin-top: 80px;
 	}
 
 	.registration-item_text {
